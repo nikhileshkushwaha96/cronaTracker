@@ -3,7 +3,8 @@ import { fetchdailydata}  from '../../api'
 
 import { useEffect,useState } from 'react'
 
-import {Line,Bar} from 'react-chartjs-2'
+import {Line} from 'react-chartjs-2'
+
 // import styles from './Chart.module.css'
 //  import { rgbToHex } from '@mui/material'
 
@@ -33,7 +34,6 @@ fetchapi()
 
 
 
-console.log(dailydata)
 
 
   return (
